@@ -13,6 +13,9 @@ main{
     color: #FF5400;
 
 }
+.secondary-color{
+    color: rgba(19, 19, 24, 0.70);   
+}
 /* -----nav styles ------ */
 header{
     max-width: 1450px;
@@ -114,6 +117,48 @@ nav{
     color: white;
 }
 
+/* popular section  */
+
+.popular{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.popular-items{
+    width: 50%;
+}
+.popular-items > h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.popular-items > p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.popular-items > ul{
+    margin-left: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.popular-items > button{
+    margin-top: 30px;
+    padding: 15px 35px;
+    background-color: #FF5400;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    font-size: 20px;
+}
+.popular-img > img{
+    width: 100%;
+}
+
+
+
 
 /* Responsive styles  */
 @media only screen and (max-width:600px) {
@@ -163,6 +208,15 @@ nav{
         border: 0;
         background-color: #FF5400;
         color: white;
+    }
+    .popular{
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 20px;
+        margin-top: 40px;
+    }
+    .popular-items{
+        width: 100%;
     }
 
 }
