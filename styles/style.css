@@ -14,7 +14,7 @@ main{
 
 }
 .secondary-color{
-    color: rgba(19, 19, 24, 0.70);   
+    color: #5A5A5D;   
 }
 /* -----nav styles ------ */
 header{
@@ -283,6 +283,122 @@ nav{
 
 }
 
+/* ----------- deals section ---------------- */
+
+.deals-intro{
+    text-align: center;
+}
+.deals-intro > h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom:24px;
+}
+.deals-intro > p{
+    margin: 0 auto;
+    width: 650px;
+    line-height: 22px;
+}
+
+.discount-item-1 {
+    margin-top: 50px;
+    background-image: url("../Images/11.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+.discount-item-2{
+    margin-top: 50px;
+    background-image: url("../Images/12.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+.discount-item-3 {
+    margin-top: 50px;
+    background-image: url("../Images/4.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+.discount-item-2 > .card {
+    margin-left: 70px;
+}
+
+    
+.card{
+    background: rgba(255, 255, 255, 0.80);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-size: contain;
+    max-width: 600px;
+    height: 380px;
+    border-radius: 15px;
+    padding: 50px;
+    margin-right: 70px;
+}
+.card-top-section{
+    display: flex;
+    gap: 60px;
+}
+.card-top-section > div > p > i {
+    color: #FF5400;
+    margin-right: 10px;
+}
+
+.card-intro{
+    margin-top: 30px;
+}
+
+.card-intro > h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-intro > h2{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.card-intro > button {
+    background-color: #FF5400;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.discount-zone > .package-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+.discount-zone > .package-btn > button{
+    background-color: #FF5400;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
 
 /* Responsive styles  */
 @media only screen and (max-width:600px) {
@@ -354,6 +470,27 @@ nav{
     }
     .choose-items > .items-3{
         width: 100%;
+    } 
+
+     /* --------- deals and discount section -------- */
+     .deals-intro > p{
+        width: 400px; ;
+        margin:  0 auto;
+     }
+
+     .discount-item-1 {
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        border-radius: 15px;
+        
     }
+
+
+
+
 
 }
