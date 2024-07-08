@@ -9,6 +9,7 @@ main{
     max-width: 1450px;
     margin: 0 auto;
 }
+
 .primary{
     color: #FF5400;
 
@@ -420,11 +421,132 @@ nav{
     font-weight: 700;
 }
 
+/* --------------- watch section --------------- */
+
+.watch{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    j
+}
+.watch-items{
+    display: flex;
+    gap: 30px;
+}
+.watch-items > .watch-intro , .watch-items > .watch-video{
+    width: 50%;
+}
+.watch-intro > h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    line-height: 60px;
+}
+.watch-intro > p{
+    margin-bottom: 20px;
+}
+.watch-intro > ul{
+    margin-left: 16px;
+    margin-bottom: 30px;
+}
+.watch-intro > ul > li{
+    margin-top: 20px;
+    font-weight: 700;
+}
+.watch-intro > button {
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #FF5400;
+    border-radius: 10px;
+    border: none;
+}
+.watch-items > .watch-video{
+    background-image:linear-gradient( to top,  rgba(0, 0, 0, 0.109) , rgba(68, 67, 67, 0.306)) , url("../Images/9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ 
+    
+}
+.watch-video > .text-view{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.play-btn-one > img{
+    filter: brightness(1000%);
+    height:30px;
+}
+.play-btn-one {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.play-btn-one > .duration{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+
+
+}
+.play-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  width: 90%;
+  margin-bottom: 20px;
+
+
+
+}
+.play-btn-two > img{
+    margin-left: 10px;
+    height: 30px;
+}
+.duration-play{
+    width: 90%;
+    background-color: rgba(162, 158, 158, 0.854);
+    height: 5px;
+    margin: 0 auto;
+}
+.play-time{
+    background-color: rgb(247, 247, 247);
+    height: 5px;
+    width: 30%;
+    
+}
 
 
 
 
-/* Responsive styles  */
+
+
+
+
+
+
+
+
+
+
+.hide{
+    display: none;
+}
+
+/*----------------------- Responsive styles  --------------------------  */
+
+
 @media only screen and (max-width:600px) {
     header{
         padding: 0 20px;
@@ -580,5 +702,26 @@ nav{
     .discount-zone > .package-btn{
         display: none;
     }
+
+    /* ----------watch section --------- */
+    .watch-items{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .watch-intro > h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .watch-items > .watch-intro , .watch-items > .watch-video{
+        width: 100%;
+    }
+    .watch-video{
+        height: 50vh;
+    }
+
+
+
+
+
 
 }
