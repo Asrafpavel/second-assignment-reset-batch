@@ -527,11 +527,82 @@ nav{
     
 }
 
+/* -------------------newsletter section ------------------ */
 
 
-
-
-
+.newsletter{
+    display: flex;
+    margin-top: 100px;
+    height: 60vh;
+    gap: 25px;
+}
+.newsletter-items{
+    width: 40%;
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+    padding: 40px;
+}
+.newsletter-items> h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.newsletter-items > hr{
+    margin-top: 30px;
+    width: 90%;
+    background-color: #d9d9d9;
+    height: 2px;
+    border: none;
+}
+.newsletter-items > input{
+    display: block;
+    margin-top: 20px;
+    width: 90%;
+    border:none ;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.214);
+    border-radius: 15px;
+}
+.newsletter-items > button{
+    width: 90%;
+    margin-top: 25px;
+    border: none;
+    background-color: #FF5400;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.showing-scene{
+    width: 60%;
+    background-image: url("../Images/14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    position: relative;
+}
+.showing-scene > .save-item{
+    background-color: #FF5400;
+    width: 300px;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    right: 9px;
+    bottom: 50px;
+    transform: rotate(-23deg);
+    
+}
+.save-item > p{
+    font-size: 25px;
+}
+.save-item > h1{
+    font-weight: 800;
+    margin-top: 10px;
+}
 
 
 
@@ -719,9 +790,19 @@ nav{
         height: 50vh;
     }
 
+    /* -----------newsletter ----------------- */
+    .newsletter{
+        flex-direction: column;
+        height: 100%;
+        padding: 10px;
+    }
+    .newsletter-items , .showing-scene{
+        width: 100%;
 
-
-
-
+    }
+   .showing-scene{
+         height: 50vh;
+   }
+   
 
 }
