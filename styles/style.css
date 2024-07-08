@@ -527,6 +527,76 @@ nav{
     
 }
 
+/* -----------------bonus --------------------- */
+.bonus > h1{
+   text-align: center;
+   font-size: 40px;
+   font-weight: 800;
+   margin: 40px 0;
+   background-color: lightslategrey;
+   padding: 20px;
+   border-radius: 10px;
+   color: whitesmoke;
+}
+
+
+.bonus-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.bonus-items > div{
+    width: 300px;
+    height: 400px;
+    background-color: #c1e7f0;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+}
+.bonus-items > div > h3{
+    margin: 15px 0;
+    color: #5A5A5D;
+    font-weight: 800;
+}
+.bonus-items > div > p{
+    margin-bottom: 15px;
+    color: #5A5A5D;
+}
+.bonus-items > div > img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+#div1{
+    background-color: rgba(255, 182, 193, 0.831);
+}
+#div2{
+    background-color: lightcyan;
+}
+
+#div3{
+    background-color: rgba(255, 160, 122, 0.698);
+}
+#div1:hover{
+    background-color: lightblue;
+    transition: 1s linear;
+}
+#div2:hover{
+    background-color: rgba(250, 128, 114, 0.658);
+    transition: 1s linear;
+}
+#div3:hover{
+    background-color: rgba(0, 255, 255, 0.329);
+    transition: 1s linear;
+}
+#div4:hover{
+    background-color: rgba(218, 165, 32, 0.553);
+    transition: 1s linear;
+}
+
+
+
+
 /* -------------------newsletter section ------------------ */
 
 
@@ -800,6 +870,20 @@ footer {
     .discount-zone > .package-btn{
         display: none;
     }
+
+    /* ----------------bonus ------------------ */
+
+    .bonus-items{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .bonus-items > div{
+        width: 80%;
+        
+    }
+
 
     /* ----------watch section --------- */
     .watch-items{
