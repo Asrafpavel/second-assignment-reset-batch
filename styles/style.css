@@ -698,6 +698,7 @@ footer {
 }
 .footer-head > div > h1{
     font-weight: 800;
+    font-size: 32px;
 }
 .footer-items > .head-desc{
     margin-top: 25px;
@@ -723,6 +724,7 @@ footer {
     nav{
         flex-wrap: wrap;
         gap: 30px;
+        padding-top: 20px;
     }
     main{
         padding: 0 20px;
@@ -732,10 +734,16 @@ footer {
         gap: 30px;
     }
     .banner-items > h1{
-        font-size: 34px;
+        font-size: 30px;
+        margin-bottom: px;
+        font-weight: 800;
     }
    
-
+    .banner-items > p{
+        padding: 0 25px;
+        margin-top: 20px;
+        
+    }
     .banner-select{
         display: flex;
         flex-direction: column;
@@ -771,6 +779,9 @@ footer {
         gap: 40px;
         margin-top: 40px;
     }
+    .popular-items > h1 {
+        font-size: 25px;
+    }
     .popular-items{
         width: 100%;
     }
@@ -783,6 +794,9 @@ footer {
      .destination-intro > p{
         width: 90%;
         margin: 0 auto;
+     }
+     .destination-intro > h1 {
+        font-size: 25px;
      }
     .first-row , .second-row , .third-row {
         flex-direction: column;
@@ -818,6 +832,9 @@ footer {
     .choose {
         margin-bottom: 30px;
     }
+    .choose-intro > h1{
+        font-size: 25px;
+    }
     .choose-intro > p{
         width: 80%;
         margin: 0 auto;
@@ -830,10 +847,10 @@ footer {
     } 
 
      /* --------- deals and discount section -------- */
-     .deals-intro > p{
-        width: ; 
-        margin:  0 auto;
-     }
+    .deals-intro > h1{
+        font-size: 25px
+    }
+   
 
      .discount-item-1 , .discount-item-2 , .discount-item-3{
         height: 70vh;
@@ -853,9 +870,9 @@ footer {
     }
     
     .card{
-        max-width: 400px;
-        height: 380px;
-        padding: 40px;
+        max-width: 300px;
+        height: 350px;
+        padding: 25px;
         margin: 0 auto;
         
     }
@@ -864,9 +881,7 @@ footer {
         gap: 20px;
     }
     
-    .hide{
-        display: none;
-    }
+   
     .card-intro{
         margin-top: 10px;
     }
@@ -876,7 +891,9 @@ footer {
     }
 
     /* ----------------bonus ------------------ */
-
+    .bonus > h1 {
+        font-size: 25px;
+    }
     .bonus-items{
         flex-direction: column;
         gap: 30px;
@@ -900,8 +917,11 @@ footer {
         margin-bottom: 30px;
     }
     .watch-intro > h1 {
-        font-size: 30px;
+        font-size: 25px;
         line-height: 45px;
+    }
+    .text-view > h3{
+        font-size: 20px;
     }
     .watch-items > .watch-intro , .watch-items > .watch-video{
         width: 100%;
@@ -916,6 +936,7 @@ footer {
         height: 100%;
         padding: 10px;
         margin-top: 0;
+        margin-bottom: 20px;
     }
     .newsletter-items , .showing-scene{
         width: 100%;
@@ -929,19 +950,21 @@ footer {
 
 
    /* --------------footer---------------- */
-
-.footer-items > .footer-head{
-    font-size: 25px;
+footer{
+    height: 60vh;
 }
 .footer-head > div > h1{
     font-weight: 800;
     margin-bottom: 25px;
+    font-size: 25px;
 }
 .footer-items > .head-desc{
     margin-top: 25px;
     width: 80%;
     margin: 0 auto;
 }
-
+.hide{
+    display: none;
+}
 
 }
